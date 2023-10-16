@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forma</title>
+</head>
+<style>
+body{background-color: #3E5F8A;}
+.form-control{
+        display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #4285B4;
+    padding-bottom: 1.25em;
+    color:  #002F55;
+    height: 30px;
+    }
+.log-form{
+    color:  #002F55;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: #4285B4;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    -webkit-box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+            box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid #4285B4;
+    margin: 0;
+    font-weight: 200;
+}
+.inputt{
+    color:  #002F55;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: #4285B4;
+    padding: .75em 1em .75em 1.5em;
+    font-weight: 200;
+}
+#atrakcja{
+    color:  #002F55;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: #4285B4;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    -webkit-box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+            box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid #4285B4;
+    margin: 0;
+    font-weight: 200;
+}
+.registerbtn{
+    width:100%;
+    color:  #002F55;
+    font-family: 'open sans condensed';
+    font-size: 1.35em;
+    display: block;
+    background: #4285B4;
+    padding: .75em 1em .75em 1.5em;
+    font-weight: 200;
+    margin-top: 20px;
+}
+h1{color:#002F55}
+</style>
+<body>
+    <div class="main">
+    <center><h1>Rejestracja na wyczeczkę do Energylandii</h1></center>
+    <hr>
+    <div>
+        <form action="https://formsubmit.co/vikapanchenko601@gmail.com"method="post">
+        <label for="exampleInputEmail1" class="log-form input">Imię</label>
+        <input type="text" class="form-control" id="exampleInputEmail">
+      </div>
+      <div>
+        <label for="exampleInputEmail1" class="log-form">Nazwisko</label>
+        <input type="text" id="exampleInputEmail"class="form-control">
+      </div>
+      <div>
+        <label for="exampleInputEmail1" class="log-form">Email</label>
+        <input type="text" id="exampleInputEmail"class="form-control">
+      </div>
+      <div>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html" class="inputt">Mężczyzna</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css"class="inputt">Kobieta</label><br>
+      </div>
+      <div>
+        <label for="exampleInputEmail1" class="log-form">Wiek</label>
+        <input type="text" id="exampleInputEmail"class="form-control">
+      </div>
+      <div>
+        <h1>Wybór atrakcji</h1>
+      <select name="atrakcja" id="atrakcja" required="">
+        <option value="Hyperion">Hyperion</option>
+        <option value="Zadra">Zadra</option>
+        <option value="Mayan">Mayan</option>
+        <option value="Mayan">Tsunami drop</option>
+        <option value="Mayan">Space gun</option>
+        <option value="Mayan">Formuła</option>
+      </select>
+      </div>
+      <div>
+        <h1>Wybór jedzenia</h1>
+        <select name="atrakcja" id="atrakcja" required="">
+            <option value="Hyperion">hot-dog</option>
+            <option value="Zadra">burger</option>
+            <option value="Mayan">pizza</option>
+          </select>
+      </div><div>
+      <button type="submit" class="registerbtn">Register</button></div>
+    </div></form>
+</body>
+</html>
